@@ -2,7 +2,7 @@ import random
 import sys
 import os
 
-from PySide2.QtWidgets import (
+from PySide6.QtWidgets import (
   QApplication,
   QButtonGroup,
   QComboBox,
@@ -17,7 +17,7 @@ from PySide2.QtWidgets import (
   QVBoxLayout,
   QWidget,
 )
-from PySide2.QtGui import (
+from PySide6.QtGui import (
   QBrush,
   QColor,
   QFont,
@@ -26,7 +26,7 @@ from PySide2.QtGui import (
   QPen,
   QPixmap,
 )
-from PySide2.QtCore import (
+from PySide6.QtCore import (
   Qt,
   QObject,
   QPoint,
@@ -1237,4 +1237,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     #app.setWindowIcon(QtGui.QIcon('icons/piecasso.ico'))
     window = MainWindow()
-    app.exec_()
+    app.exec()

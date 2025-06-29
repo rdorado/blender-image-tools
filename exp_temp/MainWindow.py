@@ -1,7 +1,9 @@
 import sys
-from PySide2.QtWidgets import (
-  QApplication, QLabel, QStatusBar, QToolBar,
-  QAction,
+from PySide6.QtWidgets import (
+  QApplication,
+  QLabel,
+  QStatusBar,
+  QToolBar,
   QGridLayout,
   QHBoxLayout,
   QMainWindow,
@@ -13,14 +15,18 @@ from PySide2.QtWidgets import (
   QVBoxLayout,
   QWidget,
 )
-from PySide2.QtGui import (
-  QPalette, QColor, QIcon, QPixmap
+from PySide6.QtGui import (
+  QPalette,
+  QColor,
+  QIcon,
+  QPixmap,
+  QAction,
 )
-from PySide2.QtCore import (
+from PySide6.QtCore import (
   Qt,
   QSize,
   QRect,
-  QCoreApplication
+  QCoreApplication,
 )
 
 
